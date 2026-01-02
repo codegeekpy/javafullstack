@@ -33,6 +33,8 @@ public class Users {
     void setPassword(String p){
         this.password = p;
     }
-
+    String getUsername(){
+        return this.username;
+    }
 
 }
